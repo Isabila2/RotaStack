@@ -14,7 +14,7 @@ export default function Home(){
         <Button title="Login" onPress={() => navigation.navigate("Login")} />
         <Image
   style={styles.imghome}
-  source={imghome}
+  source={img}
 />
         </View>
       );
